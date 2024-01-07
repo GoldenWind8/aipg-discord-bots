@@ -22,6 +22,17 @@ class T5Translator:
         translation = self.tokenizer.decode(outputs[0], skip_special_tokens=True)
         return translation
 
+    def translate_from_english(self, text, target_language):
+        # Prefixing the input text with language identifier
+        text_to_translate = f"<2{target_language}> {text}"
+
+        input_ids = self.tokenizer(text_to_translate, return_tensors="pt").input_ids.to(self.model.device)
+        outputs = self.model.generate(input_ids=input_ids)
+
+        # Decoding the output
+        translation = self.tokenizer.decode(outputs[0], skip_special_tokens=True)
+        return translation
+
 
 # Usage example
 model_path = '/path/to/save/model'
