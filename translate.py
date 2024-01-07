@@ -1,3 +1,5 @@
+import discord
+from discord.ext import commands
 from transformers import T5ForConditionalGeneration, T5Tokenizer
 
 
@@ -34,8 +36,26 @@ class T5Translator:
         return translation
 
 
+#Discord Bot setup
+intents = discord.Intents.default()
+intents.message_content = True
+
+bot = commands.Bot(command_prefix='!', intents=intents)
+
 # Usage example
-model_path = '/path/to/save/model'
-translator = T5Translator(model_path)
-translated_text = translator.translate_to_english("Hola mundo")
-print(translated_text)
+# model_path = '/path/to/save/model'
+# translator = T5Translator(model_path)
+# translated_text = translator.translate_to_english("Hola mundo")
+# print(translated_text)
+
+@bot.command()
+async def translate(ctx, *, question):
+    try:
+        translated_text = 1
+        await ctx.send(translated_text)
+    except Exception as e:
+        print(f"Error occurred: {e}")
+        await ctx.send("Sorry, I was unable to process your request.")
+
+
+bot.run("MTE5MjQ1WjfDmH7n7YJ_kb6nmLy0")
