@@ -12,7 +12,6 @@ This bot is designed to answer questions in a Discord server by using advanced l
 Before starting the bot, make sure to set the following environment variables:
 
 - `DISCORD_TOKEN`: Your Discord bot token. You can get this from the [Discord Developer Portal](https://discord.com/developers/applications).
-- `OPENAI_API_KEY`: Your OpenAI API key. You can get it here [OpenAI Plattform](https://platform.openai.com/account/api-keys)
 
 ## Starting the Bot
 
