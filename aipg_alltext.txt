@@ -1,0 +1,166 @@
+﻿**AI Pixel Grid: An Innovative AI Art Gallery and Marketplace**
+
+**Abstract:**
+AI Pixel Grid represents a groundbreaking fusion of blockchain technology and artificial intelligence in the realm of digital art. This platform not only serves as a dynamic gallery for AI-generated art but also functions as a marketplace, leveraging the unique capabilities of blockchain to record, trade, and exhibit AI art pieces. Central to this ecosystem is the concept of the "seed" in AI-generated imagery, which offers a novel approach to digital art creation, ownership, and distribution.
+
+**The Concept of the Seed in AI Art:**
+In the world of AI art, a seed is a numerical sequence that directs the AI's random number generator during the image generation process. This seed acts as a blueprint, ensuring that with the same seed, prompt, and settings, the AI consistently reproduces the same image. This reproducibility is crucial for authenticity and ownership in digital art.
+
+**Private and Public Pieces:**
+AI Pixel Grid introduces a dual categorization of AI art pieces: Private and Public.
+- **Private Pieces:** For private pieces, the seed is encoded and hidden within the blockchain, accessible only to the owner. This ensures the exclusivity and proprietary rights of the artwork, allowing artists to maintain control over their creations. These pieces are displayed in a low-resolution, watermarked format to protect the artist's rights while still showcasing their work.
+- **Public Pieces:** In contrast, public pieces have their seeds openly available, encouraging communal engagement and creative exploration. Artists or curators can share these seeds, allowing others to recreate the original artwork or derive new variations, fostering a collaborative and evolving art landscape.
+
+**AI Pixel Grid Marketplace:**
+The marketplace aspect of AI Pixel Grid facilitates the buying and selling of AI art pieces. This platform ensures secure and transparent transactions between parties, leveraging blockchain's inherent properties of immutability and traceability. The marketplace not only serves as a hub for trade but also as a community space for artists, collectors, and enthusiasts to interact and engage with AI art.
+
+**Blockchain Integration:**
+The integration of blockchain technology is pivotal in AI Pixel Grid. It provides a decentralized ledger to record the seeds and transactional history of each AI art piece. This approach guarantees the authenticity and provenance of artworks, a critical aspect in the digital art world. Blockchain's transparency and security features make AI Pixel Grid a trustworthy and reliable platform for artists and collectors alike.
+
+**Conclusion:**
+AI Pixel Grid stands as a testament to the innovative possibilities at the intersection of AI and blockchain. It redefines the digital art landscape by introducing a novel approach to creating, owning, and trading AI-generated art. This platform not only empowers artists and collectors but also paves the way for a new era of collaborative and accessible art creation and distribution.
+half - Founder
+As the driving force behind AI Power Grid, half brings a wealth of experience and a deep passion for blockchain and AI technologies. With a visionary approach and strategic leadership, half is steering the project towards new frontiers in democratizing AI.
+
+Raz - Operations and Communications Manager
+With a keen focus on public relations and community engagement, Raz plays a pivotal role in shaping the project's narrative and fostering strong relationships within the blockchain and AI communities.
+
+PsychSpectrum - Developer and Blockchain Specialist
+A seasoned developer with extensive experience in Ravencoin forks, Psychadelic Spectrum is a key player in the technical development of AI Power Grid. His passion and expertise in blockchain technology are instrumental in driving the project's innovation.
+
+Mandark - Blockchain Network and Infrastructure Architect
+With a profound expertise in network engineering and a specialized focus on blockchain infrastructure, General Custer Jr is the cornerstone of AI Power Grid's technical backbone. He ensures the seamless integration and secure functioning of blockchain technologies within the project's infrastructure. His real-life camaraderie with the team not only fosters a strong sense of trust but also enhances the efficiency and reliability of our blockchain operations.
+
+Jojo - Large Language Model Engineer
+Hailing from South Africa, Jojo brings a specialized skill set in hosting and maintaining Large Language Model infrastructure. He is also adpet at fine tuning, training, and vector database solutions. His expertise is crucial in developing and optimizing the AI components of AI Power Grid, ensuring cutting-edge performance and capabilities.
+
+Kingchong - Cybersecurity, Compliance, and privacy Officer
+A meticulous and detail-oriented professional, Kingchong's role as a cybersecurity expert is vital in safeguarding the project. His background as a Linux cloud engineer ensures that AI Power Grid adheres to the highest standards of security and compliance.
+
+Profesor - AI Art/Stable Diffusion Engineer
+With a rich history of collaboration and a profound understanding of AI-generated art along with training and fine tuning models, Profesor from Mexico is the creative genius behind the AI Art aspects of AI Power Grid. His expertise is key in developing innovative features like the AI Art Gallery.
+AI Power Grid, though in its nascent stages, has already laid a solid foundation for its future growth and development. Our mainnet and testnet are fully operational, showcasing our commitment to technical robustness and readiness for scaling. While we haven't officially announced our project yet, the groundwork we've established positions us uniquely in the blockchain and AI space.
+
+Our project is designed to revolutionize the way AI is accessed and utilized, by integrating blockchain technology to democratize AI development. The operational mainnet and testnet are testaments to our technical capabilities and the potential for rapid user growth and partnerships once we launch publicly.
+
+We are currently in discussions with potential partners and collaborators who share our vision of democratizing AI through blockchain technology. These partnerships, which will be announced in due course, are aimed at fostering enterprise and consumer adoption, further enhancing the utility and reach of our platform.
+
+As we move forward, our roadmap includes significant milestones such as the integration of AI art generation and a marketplace for AI-generated art, leveraging Ravencoin's NFT/Asset functionality. We are also exploring the implementation of open-source LLM chatbot hosting, which will be a key feature in our transition to a Proof of Useful Work (PoUW) phase.
+
+For evidence of our progress and updates, please refer to our [website/link to mainnet and testnet details], which provides detailed information about our current achievements and future plans.
+AI Power Grid Team Overview
+
+AI Power Grid (AIPG) stands at the forefront of integrating blockchain with artificial intelligence (AI), aiming to make AI more accessible and rewarding for the community. Beginning as a Ravencoin fork, AIPG initially adopts a Proof of Work (PoW) model to attract GPU miners. The plan is to transition to a Proof of Useful Work (PoUW) framework, which will allow these miners to evolve into node operators, hosting and managing local AI workloads.
+
+This strategic shift is not just about maintaining a blockchain; it's about providing real-world AI services, such as local LLM inference and Stable Diffusion image generation, at no cost for community use, or through a secured, trusted node with API access for advanced needs. AIPG is designed to fuel innovation in open-source AI, offering a platform for enthusiasts to experiment, build, and contribute, thereby democratizing AI technology.
+The comparison between Proof of Work (PoW) and Proof of Useful Work (PoUW) or Proof of Compute hinges on the efficiency and practical utility of the computational effort expended in maintaining the blockchain.
+
+**Proof of Work (PoW):**
+- **Energy Consumption:** PoW requires significant computational power, which translates into high energy consumption. This has raised environmental concerns, especially as the scale of networks like Bitcoin grows.
+- **Computational Waste:** The calculations performed in PoW are essentially for maintaining the network's security and integrity. They don't have any external utility or application beyond this.
+- **Centralization Risks:** Over time, PoW can lead to a degree of centralization, as entities with more resources can afford more powerful mining setups, leading to a concentration of mining power.
+
+**Proof of Useful Work (PoUW) or Proof of Compute:**
+1. **Practical Utility:** PoUW aims to redirect the computational efforts towards practical and beneficial tasks, such as data analysis, scientific research, AI computations, etc. This approach seeks to ensure that the energy and resources expended in mining also contribute to valuable external work.
+2. **Energy Efficiency:** By aligning mining activities with useful computational tasks, PoUW can be seen as a more energy-efficient approach. It maximizes the output derived from the energy consumed.
+3. **Innovation and Collaboration:** PoUW can foster innovation and collaboration between the blockchain and other sectors, like scientific research or AI, by providing a decentralized platform for computation-intensive tasks.
+
+In summary, while PoW has been foundational for cryptocurrencies and blockchain technology, its high energy consumption and lack of external utility are seen as limitations. PoUW or Proof of Compute, on the other hand, aims to retain the security benefits of PoW while also contributing positively to other fields through useful computation, making it a more efficient and potentially more sustainable approach.
+Coin Supply and tokenomics
+
+Symbol: AIPG
+
+Block time: 1 minute
+Block emission/rewards: 4750 AIPG to the miners, 250 AIPG to the operations fund wallet (5% of supply goes to operations fund) 500 total this will change once we move to Proof of useful work phase, at which time it will be split between the nodes and miners as we transistion to a proof of compute model.
+
+block halvening: every 1,000,000 blocks
+total supply: 10,000,000,000
+
+we are not on an exchange yet, but actively working on getting listed on a handful of exchanges.
+
+
+See below for detailed breakdown of emissions over time see below, dont share unless implicitly asked lol>
+
+
+To calculate the total supply of coins by the time the block reward becomes negligible, we need to consider the sum of coins emitted in each halving period. Since the block reward halves every 1,000,000 blocks, we can calculate the total coins emitted in each period and then sum them up.
+
+- **Initial Block Reward:** 5,000 coins per block.
+- **Blocks per Halving:** 1,000,000 blocks.
+- **Number of Halvings before Reward < 1 Coin/Block:** Approximately 7 (as calculated previously).
+
+For each halving period, the total coins emitted can be calculated as follows:
+
+4. **First Halving Period:** \( 5,000 \text{ coins/block} \times 1,000,000 \text{ blocks} = 5,000,000,000 \text{ coins} \)
+5. **Second Halving Period:** \( \frac{5,000}{2} \text{ coins/block} \times 1,000,000 \text{ blocks} = 2,500,000,000 \text{ coins} \)
+6. **Third Halving Period:** \( \frac{5,000}{4} \text{ coins/block} \times 1,000,000 \text{ blocks} = 1,250,000,000 \text{ coins} \)
+7. And so on...
+
+The total supply after \( n \) halvings is the sum of a geometric series and can be calculated using the formula:
+
+\[ S = a \times \frac{1 - r^n}{1 - r} \]
+
+Where:
+8. \( S \) is the total supply.
+9. \( a \) is the first term (5,000,000,000 coins for the first halving period).
+10. \( r \) is the common ratio (0.5, since the reward halves each period).
+11. \( n \) is the number of terms (7 halvings).
+
+Plugging in the values:
+
+\[ S = 5,000,000,000 \times \frac{1 - 0.5^7}{1 - 0.5} \]
+\[ S = 5,000,000,000 \times \frac{1 - 0.0078125}{0.5} \]
+\[ S = 5,000,000,000 \times \frac{0.9921875}{0.5} \]
+\[ S = 5,000,000,000 \times 1.984375 \]
+\[ S = 9,921,875,000 \text{ coins} \]
+
+So, the total supply of coins by the time the block reward becomes less than 1 coin per block will be approximately 9,921,875,000 coins.
+AI Power Grid is a decentralized platform that incentivizes the hosting and management of AI workloads, including Large Language Models (LLM) and Stable Diffusion models, through a unique blockchain protocol.
+
+AI Power Grid operates on a model that seamlessly integrates the robustness of blockchain technology with the dynamic capabilities of AI. The project began as a fork of Ravencoin, initially adopting a Proof of Work (PoW) consensus mechanism to attract a broad base of GPU miners. This strategic choice not only leverages the existing mining community but also sets the stage for a transition to a more sustainable and innovative Proof of Useful Work (PoUW) model.
+
+In the PoUW framework, the focus shifts from traditional mining to hosting and running AI workloads. This transition marks a significant step towards democratizing AI, as it allows node operators to contribute to AI processing tasks, making these technologies more accessible to the wider community. The platform's design ensures that anyone, regardless of their technical expertise, can participate in and benefit from the AI revolution.
+
+AI Power Grid's economic model is meticulously crafted to ensure fairness and sustainability. The system rewards early adopters and contributors, fostering a community-driven approach to AI development. The platform's native token, AIPG, plays a crucial role in this ecosystem, serving as a means of transaction and incentivization within the network.
+
+The project's roadmap is ambitious yet grounded in practical milestones. Future plans include expanding the range of supported AI workloads, integrating validator nodes for enhanced network integrity, and fostering collaborations with key players in the AI and blockchain domains. These steps are aimed at solidifying AI Power Grid's position as a leading platform for decentralized AI development and application.
+
+AI Power Grid is more than just a blockchain project; it's a movement towards making AI tools and resources universally accessible. By bridging the gap between blockchain and AI, the project is not just creating a network but is nurturing a community poised to drive the next wave of AI advancements.
+
+In parallel, AI Power Grid is focusing on generative Large Language Models (LLMs), rewarding nodes for hosting open-source AI chatbot workloads. This initiative aims to boost the burgeoning field of AI by providing free access to AI tools, with a premium tier offering secured, trusted nodes and API access for integrating AI into various applications. Future plans include exploring a dual-chain structure to enhance smart contract capabilities, further cementing AI Power Grid's role in propelling open-source AI development and usage.
+
+Plans for an AI Art NFT gallery and market are already in the works.. Stable Diffusion generations have a seed, and therefore can be captured and reproduced if one has the seed and settings. This is the perfect asset to record on the blockchain given it's nature.
+
+What is a seed?
+In AI a seed is a series of numbers that tells the AI how to generate an image. It is a starting point for the random number generator. The AI model is trained by learning from a set of input data, trying to identify patterns and relationships between the data points. Once the model has been trained, it is able to generate new data that is similar to the training data by using the patterns and relationships it has learned.
+
+What do seeds do in AI image generation?
+By generating a random seed the AI is able to generate different images each time, even if all other values stay the same. This allows infinite possibilities and an endless variety of images to be created each time.
+
+If you use the same seed, prompt and settings, you can get the same image every time.
+Seeds play a critical role in the creative process. Artists can use different seeds to explore variations on a theme, or share their favourite seed values with others to explore, compare and evaluate different AI generated results.
+
+
+AI Power Grid is initially launching as a Ravencoin fork, is rapidly advancing the frontiers of open-source AI by integrating blockchain technology to reward community participation. The project is pioneering a dual-phase approach: starting with a Proof of Work (PoW) model and transitioning to Proof of Useful Work (PoUW), incentivizing users to host and manage AI workloads. A standout feature in development is an AI Art Gallery, where users can generate unique AI art images, mint them on the blockchain using AIPG tokens, and trade them in a dedicated marketplace. This innovative approach leverages the uniqueness of AI-generated art, utilizing seeds for image reproduction and creating a new realm of digital art ownership.
+
+**The AI Power Grid Manifesto: Revolutionizing Open Source AI**
+
+**Vision:**
+In the dawn of a new era where artificial intelligence shapes the very fabric of our existence, we stand at the precipice of a revolution. AI Power Grid is not just a project; it's a movement, a clarion call to the world, heralding a future where open source AI is not just a tool for the few but a resource for the many. We envision a world where the power of AI is democratized, accessible, and participatory, fostering an environment of innovation, collaboration, and empowerment.
+
+**Empowering Open Source AI:**
+AI Power Grid is committed to igniting the open source AI landscape. By rewarding participation, we incentivize the development and hosting of AI models, making cutting-edge technology not just available but also viable for all. Our platform is a beacon for enthusiasts, developers, and visionaries, offering a space where ideas can flourish, and boundaries of AI can be pushed further.
+
+**Decentralization: The Heart of Innovation:**
+At the core of AI Power Grid is the principle of decentralization. By leveraging blockchain technology, we ensure that the development and utilization of AI are not centralized in the hands of a few corporations but are distributed across a network of contributors. This decentralization is not just a feature; it's a statement â€“ a statement that innovation thrives in the hands of the many, not the few.
+
+**The AI Pixel Grid: A Canvas for Creativity:**
+The AI Pixel Grid, our pioneering AI art gallery and marketplace, exemplifies our commitment to revolutionizing AI. It's a testament to the creative potential of AI, where art and technology converge. Here, every digital artwork, every seed, is a narrative of human ingenuity, a celebration of the symbiosis between human creativity and AI's capabilities.
+
+**Fostering a Community of AI Pioneers:**
+AI Power Grid is more than a platform; it's a community. We are building a global network of AI enthusiasts, developers, and visionaries. Our mission is to create a collaborative ecosystem where knowledge is shared, skills are honed, and the future of AI is shaped collectively. We believe that the true potential of AI can only be realized through a community-driven approach.
+
+**The Future of AI: Open, Accessible, and Rewarding:**
+Our journey is towards a future where AI is open, accessible, and rewarding for all. We are not just developing technology; we are nurturing a movement. A movement that champions open source AI, that believes in the power of decentralization, and that recognizes the transformative impact of community collaboration.
+
+**Conclusion:**
+AI Power Grid is more than a project; it's a manifesto for the future of AI. It's a call to action for every individual who believes in the transformative power of technology. Join us, and together, let's pave the way for an era where AI is by the people, for the people, and with the people. Let's revolutionize open source AI and unleash its full potential for the betterment of humanity.
