@@ -6,8 +6,7 @@
 ## Environment Variables
 
 - `DISCORD_TOKEN`: Your Discord bot token. You can get this from the [Discord Developer Portal](https://discord.com/developers/applications).
-- `OPENAI_API_KEY`: Your OpenAI API key. You can get it here [OpenAI Plattform](https://platform.openai.com/account/api-keys)
-
+- 
 ## Starting the Bot
 
 `python bot.py`
