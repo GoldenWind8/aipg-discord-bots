@@ -53,7 +53,6 @@ class DiscordQABot:
         self.bot.run(self.token)
 
 if __name__ == "__main__":
-    os.environ["DISCORD_TOKEN"] = "MTE5MjQ1ODQzNDUzNzMzMjc0Ng.GYa80l.HuTTIP2mY0xS4Hiy_owK58r0056yEdVjGG5xDA"
     token = os.environ.get("DISCORD_TOKEN")
     api_base = 'https://additionally-functional-first-hotel.trycloudflare.com/v1'
     text_file_path = "./aipg.txt"
