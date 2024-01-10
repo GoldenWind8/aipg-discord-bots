@@ -5,7 +5,7 @@ from discord.ext import commands
 from langchain.chains import RetrievalQA
 from langchain.chat_models import ChatOpenAI
 from langchain.embeddings import HuggingFaceBgeEmbeddings
-from langchain.text_splitter import CharacterTextSplitter
+from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain_community.document_loaders import TextLoader
 from langchain_community.vectorstores.chroma import Chroma
 class DiscordQABot:
@@ -26,7 +26,7 @@ class DiscordQABot:
     def load_texts(self):
         loader = TextLoader(self.text_file_path)
         documents = loader.load()
-        text_splitter = CharacterTextSplitter(chunk_size=300, chunk_overlap=100)
+        text_splitter = RecursiveCharacterTextSplitter(chunk_size=500, chunk_overlap=50, length_function=len)
         return text_splitter.split_documents(documents)
 
     def create_vector_store(self, texts):
@@ -37,14 +37,14 @@ class DiscordQABot:
         texts = self.load_texts()
         retriever = self.create_vector_store(texts)
         llm = ChatOpenAI(openai_api_base=self.api_base, openai_api_key=self.api_base, max_tokens=1024)
-        return RetrievalQA.from_chain_type(llm=llm, chain_type="stuff", retriever=retriever, return_source_documents=True)
+        return RetrievalQA.from_chain_type(llm=llm, chain_type="stuff", retriever=retriever, return_source_documents=False)
 
     def setup_bot_commands(self):
         @self.bot.command()
         async def question(ctx, *, question):
             try:
                 llm_response = self.qa_chain(question)
-                await ctx.send(llm_response)
+                await ctx.send(llm_response['result'])
             except Exception as e:
                 print(f"Error occurred: {e}")
                 await ctx.send("Sorry, I was unable to process your question.")
@@ -53,9 +53,10 @@ class DiscordQABot:
         self.bot.run(self.token)
 
 if __name__ == "__main__":
+    os.environ["DISCORD_TOKEN"] = "MTE5MjQ1ODQzNDUzNzMzMjc0Ng.GYa80l.HuTTIP2mY0xS4Hiy_owK58r0056yEdVjGG5xDA"
     token = os.environ.get("DISCORD_TOKEN")
-    api_base = 'https://settled-pin-attraction-unto.trycloudflare.com/v1'
-    text_file_path = "./aipg_alltext.txt"
+    api_base = 'https://additionally-functional-first-hotel.trycloudflare.com/v1'
+    text_file_path = "./aipg.txt"
 
     bot = DiscordQABot(token, api_base, text_file_path)
     bot.run()

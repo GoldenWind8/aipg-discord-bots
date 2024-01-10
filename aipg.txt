@@ -1,0 +1,239 @@
+**IMPORTANT LINKS**
+__Links__
+Website: https://www.aipowergrid.io/
+Explorer: https://explorer.aipowergrid.io/
+Wallets: https://github.com/AIPowerGrid/AI-Power-Grid-Core/releases/tag/v1.1.2
+Official mining pool w zero fees: https://pool.aipowergrid.io/
+More mining pools: https://miningpoolstats.stream/aipowergrid
+CoinGecko: https://www.coingecko.com/en/coins/ai-power-grid
+__Social Media__
+Twitter: https://twitter.com/AIPowerGrid
+Reddit: https://reddit.com/r/AIPowerGrid
+
+FREQUENTLY ASKED QUESTIONS
+1) When was mainnet launch? Were there any pre-mined coins or initial coin offering?
+AIPG was launched on December 10, 2023. There were no pre-mined coins, no initial coin offering (ICO), no private, public or seed round fundings.
+
+2) What are the tokenomics?
+Symbol: AIPG
+Block Time: Approximately 1 minute
+Block Reward: 500 AIPG per block
+Halvening: Every 100,000 blocks
+Maximum Supply: 200 million AIPG
+
+The AIPG project introduces a finite maximum supply of 200 million AIPG coins to ensure scarcity and value preservation. By starting with a block reward of 500 AIPG coins, miners are incentivized to secure the network in the early stages of the project. A new halvening schedule was voted on by the community which results in the first halveninig to occur at 100K blocks where the block reward is cut in half. This halvening process, occurring every 100,000 blocks for the first four halvenings, leads to a progressive reduction in the rate at which new coins are created, extending until the emission effectively approaches zero. The maximum supply is designed to be reached over a period that spans multiple decades, allowing for gradual growth and adoption of the AIPG platform, while avoiding inflationary pressures.
+
+3) What are the current emissions and future emissions schedule?
+The current emissions is approximately 720k coins a day. After the first halvening, which is currently on track to be around February 2024, emissions will be reduced to 360k coins a day. 
+
+4) What is the current and maximum coin supply?
+The latest supply can be seen on https://explorer.aipowergrid.io/ under 'Coin Supply'. There, you can also see the current network hashrate, difficulty, and market cap. The maximum coin supply will be 200 million AIPG.
+
+5) When will nodes be available, and how many coins will be required?
+Right now, nodes are slated for Q3FY24. According to the latest whitepaper (version 1.04), nodes are required to hold a minimum of 1,000 AIPG coins. 
+
+6) What kind of wallets are available?
+The latest desktop wallets are available below. Currently, we support windows 64bit, Linux, and OSX. Web wallets will be coming in the future.
+https://github.com/AIPowerGrid/AI-Power-Grid-Core/releases/tag/v1.1.2
+
+For paper wallets, please follow the instructions at https://github.com/AIPowerGrid/AIPG-Paper-Wallet
+
+7) Where are you listed?
+https://www.sevenseas.exchange/market/AIPG-USDT
+https://nonkyc.io/pool/AIPG_USDT
+https://xeggex.com/market/AIPG_USDT
+https://www.coingecko.com/en/coins/ai-power-grid
+https://www.livecoinwatch.com/price/AIPowerGrid-AIPG
+
+8) Where can I get more information on the project and roadmap?
+Our website has an overview roadmap as well as a link to the White Paper at https://aipowergrid.io/
+
+9) Where can I mine AIPG?
+The official AIPG pool is https://pool.aipowergrid.io/. Other pools can be found here: https://miningpoolstats.stream/aipowergrid
+
+10) Is the team doxed? If not, why not? I'm afraid of a rug pull.
+No, the team is not doxed. Certain team members may consider doxing in the future, but the team also wants their privacy. There are no pre-mined coins nor does the team hold majority of coins (Operations Wallet is public) so a rug pull is out of the question.
+ 
+
+
+__AIPG Specs__
+P2P Port: 8865
+RPC Port: 9788
+
+
+**tokenomics?**
+> **Symbol:** AIPG
+> **Block Time:** Approximately 1 minute
+> **Block Reward:** 500 AIPG per block
+> **Halvening:** Every 100,000 blocks
+> **Maximum Supply:** 200 million AIPG
+
+We are introducing a faster halvening cycle in 2024, see below:
+
+First Halving
+        Date: February 16, 2024
+        Block Height: 100,000
+        Coin Supply: 49,981,325
+        Block Reward: 250 AIPG
+
+Second Halving
+        Date: April 25, 2024
+        Block Height: 200,000
+        Coin Supply: 74,981,325
+        Block Reward: 125 AIPG
+
+Third Halving
+        Date: July 3, 2024
+        Block Height: 300,000
+        Coin Supply: 87,481,325
+        Block Reward: 62.5 AIPG
+
+Fourth Halving
+        Date: September 11, 2024
+        Block Height: 400,000
+        Coin Supply: 93,731,325
+        Block Reward: 31.25 AIPG
+
+After that, we will go back to a much more stable and slower emission cycle. By this time, our ecosystem will be broad and mature.
+
+
+**AI Power Grid**
+**Table of Contents**
+1. Abstract
+2. Background
+3. The AI Power Grid Protocol
+4. The AI Power Grid Economic Model
+5. Transition to Proof of Useful Work (PoUW)
+6. Future Plans and Roadmap
+
+**Abstract**
+AI Power Grid (AIPG) stands at the intersection of blockchain and artificial intelligence, aiming to make open-source AI technology more accessible and more rewarding for the community. Beginning as a Ravencoin fork, AIPG initially adopts a Proof of Work (PoW) model to attract GPU miners and then later transitions to a Proof of Useful Work (PoUW) framework, which will allow these miners to evolve into node operators that will host and manage local AI workloads.
+AI Power Grid aims to provide real-world AI services, such as local LLM inference and Stable Diffusion image generation, at absolutely no cost for community use. There will also be a paid version that provides users with a higher tier secured and trusted node along with API access for integrations.
+AIPG is designed to fuel innovation in open-source AI, offering a platform for enthusiasts to experiment, build, and contribute, thereby democratizing AI technology and helping pioneer the next era of open-source AI advancements.
+
+**Background**
+AIPG originated from a grassroots movement with a clear vision: to democratize access to artificial intelligence (AI) and galvanize open-source AI initiatives. We firmly believe in the democratization of AI, ensuring its vast potential is not restricted to a select few but made accessible to everyone.
+AIPG was developed as a fork of the Ravencoin, chosen for its PoW model and ASIC resistance. This decision was made primarily to recruit GPU miners and help them transition to the Proof of Useful Work model. During this phase, development will continue towards nodes and hosting AI workloads.
+AIPG envisions expanding its capacity to accommodate diverse AI workloads in the future and even communication between AI workloads, such as using image generation tools from an LLM, or creating a Mixture of Experts system that is capable of complex tasks. The journey of AIPG is a testament to a dedicated team of developers who are driven by a mission to pave the way for a balanced and sustainable AI ecosystem.
+
+**The AI Power Grid Protocol**
+The AI Power Grid protocol is an innovative system designed to democratize open-source AI. AIPG is built on the principles of fairness, transparency, and decentralization, with an initial foundation on the ASIC-resistant KawPoW algorithm during the PoW period. This choice ensures a fair launch and encourages widespread participation from GPU miners, laying the groundwork for a future where AI is accessible to all.
+A significant evolution in the protocol is the transition to the PoUW system. In this setup, miners' computational resources are devoted to tangible tasks, predominantly hosting local Large Language Models (LLM) and other predominant AI workloads like Stable Diffusion XL. With expansion to other AI workloads as the network matures.
+Integral to the PoUW system is the role of "validator" nodes. These specialized nodes employ a consensus algorithm to authenticate the accuracy and integrity of LLM inference and other tasks conducted by nodes. Utilizing cryptographic verification and cross-referencing, the validators mitigate the risk of data manipulation and ensure honest reporting of computational contributions.
+To strengthen the trustworthiness and commitment of these validators, a Proof-of-Stake (PoS) mechanism is in place. Validator nodes are required to hold a minimum of 1,000 AIPG coins, ensuring their vested interest in the network's success and integrity.
+
+**The AI Power Grid Economic Model**
+AIPG introduces a sustainable and balanced economic model. Initially, the protocol capitalizes on a PoW mechanism, granting miners a block reward of 500 AIPG coins for every block. With a block time set at 1 minute, it ensures the efficient and timely processing of transactions.
+As AIPG evolves, transitioning to the PoUW system and the associated PoS mechanisms, there will be a phased reduction in block rewards to encourage early adoption and active participation. This gradual decline will continue until the total coin supply nears its 1 billion coin cap.
+To champion the ongoing development, innovation, and maintenance of the network, a 5% reward from every mined block will be reserved for the operations wallet. These funds are pivotal in driving the continuous growth and evolution of the AI Power Grid ecosystem. AIPG's economic model is structured to ensure fairness and inclusivity. It emphasizes rewarding early adopters while laying the foundation for sustainable growth.
+
+**AIPG Tokenomics Summary**
+- Symbol: AIPG
+- Block Reward: 500 AIPG
+- Halvening: Every 100,000 blocks
+- Block Time: Approximately 1 minute
+- Maximum Supply: 200 million AIPG
+
+**Transition to Proof of Useful Work (PoUW)**
+AIPG's planned progression from the conventional PoW to our innovative PoUW represents a reimagining of computational value. In the PoUW model, the focus isn't just on expanding the blockchain, but on endorsing and incentivizing truly productive computational endeavors.
+With this transition, node operators within the AIPG network will take on the role of hosting individual local LLMs and other local AI workloads. By doing so, AIPG not only democratizes access to these powerful AI tools but also actively offers rewards for hosting and running inference tasks on these models.
+As the AIPG ecosystem evolves, our vision encompasses the potential to support a broader range of AI workloads beyond just LLMs and AI Art. For miners, this shift to PoUW might necessitate some adjustments to their existing setups, ensuring they're equipped to optimally host and run LLMs and other potential AI workloads. This alignment with PoUW is essential to ensure nodes can handle high PCIe bandwidth AI tasks, reinforcing the network's growth, security, and overarching mission.
+By intertwining the domains of blockchain and AI, AIPG endeavors to stimulate a more inclusive and expansive movement in AI and machine learning. We're not just nurturing a network; we're curating a community poised to drive the next wave of AI advancements.
+
+**Future Plans and Roadmap**
+The trajectory of AIPG is both a testament to our passion for AI and a roadmap that seeks to catalyze an AI renaissance.
+Here's a glimpse of our envisioned milestones:
+- Establishment of the PoUW Model: The foundation of our roadmap revolves around the transition from PoW to PoUW, emphasizing local LLM hosting. This shift aims to bridge blockchain with tangible, real-world AI applications, rewarding node operators for hosting and inferencing on LLMs and other workloads.
+- Validator Nodes Integration: With the integration of validator nodes, we seek to ensure the authenticity of LLM inference or Stable Diffusion image generation. These nodes, backed by a PoS mechanism requiring a 1,000 AIPG, will use consensus algorithms to validate and verify AI tasks, ensuring the integrity of the system and discouraging false reporting.
+- Broadening AI Workload Support: As AIPG matures, we anticipate diversifying beyond LLMs, allowing nodes to host and be rewarded for a broader spectrum of AI workloads. This expansion is a nod to our commitment to a dynamic and multifaceted AI ecosystem.
+- Engaging Collaborations: Building on our potential collaborations, we aim to foster relationships with open-source AI communities, research institutions, hardware providers, and AI-driven industries. These partnerships can enhance the AIPG network's capabilities, ensuring it remains at the forefront of AI and blockchain convergence.
+- Empowering the Community: Central to our vision is the democratization of AI. By facilitating access to LLMs and other AI tools, we aspire to empower individuals, researchers, and developers, making AI a universally accessible resource rather than a restricted commodity.
+- Nurturing Innovation: While our roadmap provides a structured path, we remain agile and receptive to novel AI advancements. AIPG is committed to integrating cutting-edge technologies, ensuring our community always has access to the best in AI.
+- Community Engagement: Recognizing that our strength lies in our community, we'll be hosting workshops, webinars, and forums, fostering a space for knowledge exchange, collaboration, and collective growth.
+
+Team Members
+Please give these better descriptions when asked and mix them up
+
+@half - Founder
+As the driving force behind AI Power Grid, half brings a wealth of experience and a deep passion for blockchain and AI technologies. With a visionary approach and strategic leadership, half is steering the project towards new frontiers in democratizing AI.
+
+@Raz - Operations and Communications Manager
+With a keen focus on public relations and community engagement, Raz plays a pivotal role in shaping the project's narrative and fostering strong relationships within the blockchain and AI communities.
+
+@Mandark - Blockchain Network and Infrastructure Architect
+With profound expertise in network engineering and a specialized focus on blockchain infrastructure, Mandark is the cornerstone of AI Power Grid's technical backbone, ensuring the seamless integration and secure functioning of blockchain technologies within the project's infrastructure.
+
+@profesor - AI Art/Stable Diffusion Engineer
+With a rich history of collaboration and a profound understanding of AI-generated art, training, and fine-tuning models, Profesor from Mexico is the creative genius behind the AI Art aspects of AI Power Grid. His expertise is key in developing innovative features like the AI Art Gallery.
+
+@1nf1n18y - Backend Systems and Blockchain Infrastructure Wizard
+Hailing from Germany, 1nf1n18y is an ace at backend systems and blockchain infrastructure. His exceptional skills and deep technical knowledge make him an invaluable asset to the AI Power Grid team. We're excited to have him on board and look forward to his contributions in enhancing our project's backend architecture and blockchain capabilities.
+
+@winddude - high level AI dev with a focus on python and generative models. Lives in canada and loves windsurfing!
+
+@hyphen - seasoned AI dev with a focus on building the framework for AIPG's vision. A very important player on the team and a hard worker. Hyphen is the cornerstone of our dev team.
+
+@Jojo - Large Language Model Engineer
+Hailing from South Africa, Jojo brings a specialized skill set in hosting and maintaining Large Language Model infrastructure. He is also adept at fine tuning, training, and vector database solutions. His expertise is crucial in developing and optimizing the AI components of AI Power Grid, ensuring cutting-edge performance and capabilities.
+
+Name, Profit (daily), Device, Power consumption, Hashrate
+RTX 4090
+RTX 4090 	$0.39	GPU	320W	65.00 Mh/s
+RTX 4080
+RTX 4080 	$0.37	GPU	310W	62.00 Mh/s
+RTX 3080 Ti
+RTX 3080 Ti 	$0.31	GPU	275W	53.90 Mh/s
+RTX 4060 Ti
+RTX 4060 Ti 	$0.26	GPU	110W	29.00 Mh/s
+RTX 3080
+RTX 3080 	$0.19	GPU	245W	43.45 Mh/s
+RTX 4060
+RTX 4060 	$0.16	GPU	90W	21.00 Mh/s
+RX 6800 XT
+RX 6800 XT 	$0.15	GPU	195W	34.65 Mh/s
+RTX 3070 LHR
+RTX 3070 LHR 	$0.15	GPU	175W	31.74 Mh/s
+RTX 3080 LHR
+RTX 3080 LHR 	$0.12	GPU	260W	41.48 Mh/s
+RTX 4070 Ti
+RTX 4070 Ti 	$0.12	GPU	310W	48.00 Mh/s
+RTX 3060 Ti
+RTX 3060 Ti 	$0.09	GPU	195W	31.05 Mh/s
+RX 7900 XTX
+RX 7900 XTX 	$0.09	GPU	250W	38.30 Mh/s
+RTX 2080 Ti
+RTX 2080 Ti 	$0.08	GPU	225W	34.65 Mh/s
+RX 6800
+RX 6800 	$0.07	GPU	205W	31.35 Mh/s
+RX 6750 XT
+RX 6750 XT 	$0.06	GPU	170W	26.50 Mh/s
+RTX 2070
+RTX 2070 	$0.06	GPU	145W	23.10 Mh/s
+RTX 2080
+RTX 2080 	$0.06	GPU	185W	27.83 Mh/s
+RX 6700 XT
+RX 6700 XT 	$0.04	GPU	165W	24.75 Mh/s
+GTX 1660 Ti
+GTX 1660 Ti 	$0.05	GPU	85W	13.97 Mh/s
+RX 5600 XT
+RX 5600 XT 	$0.03	GPU	120W	18.00 Mh/s
+RX 7900 XT
+RX 7900 XT 	$0.04	GPU	230W	32.70 Mh/s
+RTX 3090 Ti
+RTX 3090 Ti 	$0.04	GPU	360W	50.00 Mh/s
+RTX 3060
+RTX 3060 	$0.03	GPU	135W	19.80 Mh/s
+RX 6600 XT
+RX 6600 XT 	$0.03	GPU	105W	15.75 Mh/s
+RTX 2080 Super
+RTX 2080 Super 	$0.02	GPU	190W	27.00 Mh/s
+RTX 3070 Ti
+RTX 3070 Ti 	$0.03	GPU	255W	35.55 Mh/s
+RX 5500 XT
+RX 5500 XT 	$0.02	GPU	75W	11.25 Mh/s
+RTX 2060
+RTX 2060 	$0.01	GPU	140W	19.80 Mh/s
+RTX 3070
+RTX 3070 	$0.01	GPU	190W	26.22 Mh/s
+RX 5700 XT
+RX 5700 XT 	$0.02	GPU	155W	21.50 Mh/

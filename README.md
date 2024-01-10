@@ -6,7 +6,7 @@
 ## Environment Variables
 
 - `DISCORD_TOKEN`: Your Discord bot token. You can get this from the [Discord Developer Portal](https://discord.com/developers/applications).
-- 
+
 ## Starting the Bot
 
 `python bot.py`
