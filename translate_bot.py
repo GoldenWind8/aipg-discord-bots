@@ -1,5 +1,9 @@
+import os
+
 import discord
 from discord.ext import commands
+from dotenv import load_dotenv
+
 from translation_model import T5Translator
 from helpers.classify_lang import is_text_english
 
@@ -13,10 +17,17 @@ bot = commands.Bot(command_prefix='!', intents=intents)
 
 # Active translation sessions
 active_sessions = {}
+language_codes = {
+    1184390709231489105: "zh",  # Chinese
+    1184552179600728124: "ru",  # Russian
+    1184553739290427423: "fr",  # French
+    1184553809146552482: "tr",   # Turkish
+    1194896649521205268: "zh", # Test
+}
 
 # Bot command: Translate text to English
 @bot.command()
-async def translate(ctx, *, text):
+async def translate_text(ctx, *, text):
     try:
         translated_text = translator.translate_to_english(text)
         await ctx.send(translated_text)
@@ -25,7 +36,7 @@ async def translate(ctx, *, text):
 
 # Bot command: Translate the replied-to message or provided text
 @bot.command()
-async def translateReply(ctx, *, text=None):
+async def translate(ctx, *, text=None):
     try:
         if ctx.message.reference and ctx.message.reference.resolved:
             target_message = ctx.message.reference.resolved
@@ -48,8 +59,9 @@ async def translateReply(ctx, *, text=None):
 
 # Bot command: Start a translation session in a channel
 @bot.command()
-async def start(ctx, target_language: str):
-    active_sessions[ctx.channel.id] = target_language
+async def start(ctx):
+    active_sessions[ctx.channel.id] = True
+    target_language = language_codes[ctx.channel.id]
     await ctx.send(f"Translation session started. Messages will be translated to {target_language}.")
 
 # Bot command: End the translation session in a channel
@@ -64,11 +76,11 @@ async def end(ctx):
 # Event handler for processing messages
 @bot.event
 async def on_message(message):
-    if message.author.bot or not message.content:
+    if message.author.bot or not message.content or message.content[0] == "!":
         return
 
     if message.channel.id in active_sessions:
-        target_language = active_sessions[message.channel.id]
+        target_language = language_codes[message.channel.id]
         translated_text = ""
         if(is_text_english((message.content))):
             translated_text = translator.translate_from_english(message.content, target_language)
@@ -81,5 +93,6 @@ async def on_message(message):
 
 # Run the bot
 if __name__ == "__main__":
-    token = "MTE5MjQ1ODQzNDUzNzMzMjc0Ng.G0Q9UT.EY9ZEQ19qoBXtIrCKAS_lAXYzFGuqAEIBlEG98"
+    load_dotenv()
+    token = os.environ.get("DISCORD_TOKEN")
     bot.run(token)
