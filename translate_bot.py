@@ -22,7 +22,7 @@ language_codes = {
     1184552179600728124: "ru",  # Russian
     1184553739290427423: "fr",  # French
     1184553809146552482: "tr",   # Turkish
-    1194896649521205268: "zh", # Test
+    1194896649521205268: "fr", # Test
 }
 
 # Bot command: Translate text to English
@@ -76,17 +76,21 @@ async def end(ctx):
 # Event handler for processing messages
 @bot.event
 async def on_message(message):
-    if message.author.bot or not message.content or message.content[0] == "!":
+    if message.author.bot or not message.content:
         return
 
-    if message.channel.id in active_sessions:
+    if message.channel.id in active_sessions and message.content[0] != "!":
         target_language = language_codes[message.channel.id]
         translated_text = ""
         if(is_text_english((message.content))):
             translated_text = translator.translate_from_english(message.content, target_language)
         else:
-            translated_text = translator.translate_from_english(message.content, "en")
-        await message.reply(translated_text)
+            translated_text = translator.translate_to_english(message.content)
+
+        if len(translated_text) != 0:
+            await message.reply(translated_text)
+        else:
+            await message.reply("Unable to translate")
 
     await bot.process_commands(message)
 

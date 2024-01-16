@@ -17,5 +17,5 @@ def is_text_english(text):
     return is_english
 
 # Example usage
-text = "cia blat"
-print(is_text_english(text))  # Should return True for English text
+# text = "cia blat"
+# print(is_text_english(text))  # Should return True for English text
