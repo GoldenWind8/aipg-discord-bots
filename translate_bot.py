@@ -23,6 +23,7 @@ language_codes = {
     1184553739290427423: "fr",  # French
     1184553809146552482: "tr",   # Turkish
     1194896649521205268: "fr", # Test
+    1196899790752055406: "zh",
 }
 
 # Bot command: Translate text to English
