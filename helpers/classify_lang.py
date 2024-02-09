@@ -1,5 +1,4 @@
 import fasttext
-from scipy.signal.windows import lanczos
 
 
 def is_text_english(text):
